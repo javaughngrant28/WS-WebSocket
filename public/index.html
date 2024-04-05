@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real-time Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="message-container" id="messageContainer"></div>
+  <form id="messageForm">
+    <input type="text" id="messageInput" placeholder="Enter your message" autocomplete="off">
+    <button type="submit">Send</button>
+  </form>
+</div>
+<button id="ws-open">
+  Open Connection
+</button>
+<button id="ws-close">
+  Close Connection
+</button>
+<script src="script.js"></script>
+</body>
+</html>
